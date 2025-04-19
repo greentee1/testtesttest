@@ -13,5 +13,6 @@ export class HomePage {
   press(){
     this.my_name = this.my_name + "!"
   }
+  books: string[] = ['Таинственная история', 'Лавина', 'Норвежский лес']
 }
 
