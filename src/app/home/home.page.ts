@@ -10,4 +10,8 @@ export class HomePage {
 
   constructor() {}
   my_name: string="Maria!"
+  press(){
+    this.my_name = this.my_name + "!"
+  }
 }
+
