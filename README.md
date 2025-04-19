@@ -11,4 +11,9 @@
 3. IONIC 
 4. Node.js
 
+# Установка 
+```
+npm install or npm i
+ionic serve
 
+```
