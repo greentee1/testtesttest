@@ -4,6 +4,8 @@ interface Song{
   name: string
   artist: string
   genre: string
+  src: string 
+
 }
 
 @Component({
@@ -19,11 +21,11 @@ export class HomePage {
   press(){
     this.my_name = this.my_name + "!"
   }
-  books: string[] = ['Таинственная история', 'Лавина', 'Норвежский лес']
+  books: string[] = ['Тайнная история', 'Лавина', 'Норвежский лес']
   songs: Song[] = [ 
-    {name: "APT", artist: "Rose", genre: "KPop"},
-    {name: "Too Much", artist: "Dove Cameron", genre: "Pop"},
-    {name: "POP GIRL", artist: "Lexie Liu", genre: "Pop"}
+    {name: "APT", artist: "Rose", genre: "KPop", src: "/assets/pictures/nw.jpg"},
+    {name: "Too Much", artist: "Dove Cameron", genre: "Pop", src: "/assets/pictures/sc.jpg"},
+    {name: "POP GIRL", artist: "Lexie Liu", genre: "Pop", src: "/assets/pictures/tsh.jpg"}
   ]
 
 }
